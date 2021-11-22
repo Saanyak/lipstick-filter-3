@@ -1,0 +1,22 @@
+.title {
+    font-size: 35px;
+}
+
+.snapshot_button {
+    font-size: 20px;
+}
+
+.btn-success:hover {
+    background-color: lightgreen;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 20px rgb(233, 5, 5);}
+    to{box-shadow: 1px 1px 20px rgb(255, 188, 210);}
+}
